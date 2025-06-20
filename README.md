@@ -29,9 +29,9 @@ This is a beginner-friendly project where you’ll:
 - `index.html` – homepage with links to recipes  
 - Individual recipe pages:  
   - `lasagna.html`  
-  - `cake.html`  
-  - `noodles.html`  
-  *(or whatever tasty treats you added!)*
+  - `butterchicken.html`  
+  - `ramen.html`  
+ 
 
 ---
 
@@ -48,7 +48,7 @@ This is a beginner-friendly project where you’ll:
 
 Here’s a little motivation for your coding journey:
 
-![Coding Chef](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+![Coding Chef]([https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif](https://i.pinimg.com/originals/cc/52/d8/cc52d88c5738d491c2175c408d90d1dc.gif))
 
 ---
 
