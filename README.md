@@ -48,7 +48,7 @@ This is a beginner-friendly project where you’ll:
 
 Here’s a little motivation for your coding journey:
 
-![Coding Chef]([https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif](https://i.pinimg.com/originals/cc/52/d8/cc52d88c5738d491c2175c408d90d1dc.gif))
+![Coding Chef](https://i.pinimg.com/originals/cc/52/d8/cc52d88c5738d491c2175c408d90d1dc.gif)
 
 ---
 
