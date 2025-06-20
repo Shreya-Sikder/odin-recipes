@@ -37,7 +37,8 @@ This is a beginner-friendly project where you’ll:
 
 ## 🤓 Skills Used
 
-- HTML5  
+- HTML5
+- CSS
 - Git & GitHub  
 - Basic file structure  
 - Craving snacks at midnight 🌙🍫
