@@ -7,7 +7,7 @@ Welcome to **Odin Recipes** – a *fun and delicious* mini-project from [The Odi
 This is where HTML meets hunger! 🍕🍜🥗
 
 🔗 **Live Website:** [Click here to get hungry](https://yourwebsite.link)  
-*(Replace with your actual link)*
+
 
 ---
 
