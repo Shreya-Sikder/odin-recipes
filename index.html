@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Odin Recipes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Edu NSW ACT Cursive", cursive;
+            position: relative;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        /* Blurred background using ::before */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("./cover.jpg");
+            background-size: cover;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        /* Content styling */
+        h1 {
+            text-align: center;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 3rem;
+            color: bisque;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            margin-left: 520px;
+            font-family: 'libre Baskerville', serif;
+            font-size: 2rem;
+            color: salmon;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+        }
+
+        ul {
+            text-align: center;
+            list-style: none;
+            padding: 0;
+            font-size: 1.5rem;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            text-align: center;
+            color: gold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+        }
+
+
+
+        .b {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        video {
+            width: 500px;
+            height: 300px;
+            margin-left: 400px;
+        }
+
+        footer {
+            position: relative;
+            /* border: 0.25vw dotted white; */
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+         
+            text-align: center;
+            padding: 12px 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        footer .icons {
+            margin-top: 6px;
+        }
+
+        footer .icons a {
+            margin: 0 12px;
+            display: inline-block;
+        }
+
+        footer .icons .icon {
+            width: 30px;
+            height: 30px;
+            filter: invert(100%);
+            transition: transform 0.3s ease;
+        }
+
+        footer .icons .icon:hover {
+            transform: scale(1.2);
+        }
+
+        .foot{
+            color: white;
+        }
+        /* h3 {
+            font-size: 1.5rem;
+            /* background-color: blanchedalmond; 
+            padding: 10px;
+            border-radius: 10px;
+            width: fit-content;
+            margin-left: 30px;
+        } */
+
+     h3{
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* orange-pink gradient */
+  color: white;
+  padding:10px 15px;
+  /* font-family: 'Comic Sans MS', cursive, sans-serif; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 20px;
+  margin-left:50px;
+  margin-bottom: 40px;;
+  
+}
+.under{
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); 
+    color: white;
+            font-size: 1.55rem;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 20px;
+            margin-left:50px;
+            margin-right: 50px;
+          
+
+        }
+    
+        #one {
+            border-radius: 20px;
+            border: solid;
+            margin-left: 10px;
+            border: 4mm ridge rgba(220, 192, 50, 0.6);
+
+        }
+
+        .explore {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Odin Recipes</h1>
+    <p class="tagline">Where Flavor Meets Passion</p>
+    <video width="300" height="200" autoplay muted loop>
+        <source src="./indeximage.mp4" type="video/mp4" muted>
+    </video>
+    <!-- <div class="Recipes">
+        <h2 class="b">Recipes</h2>
+        <ul type="disc">
+            <li> <a href="./recipes/lasagna.html"><b>LASAGNA</b></a> </li>
+            <li> <a href="./recipes/italianLoveCake.html"><b>Italian Love Cake</b></a> </li>
+    </ul>
+    </div> -->
+
+
+    <h3>Explore Odin's:</h3>
+    <div class="explore">
+        <div class="image-container">
+             <img id="one" src="recipes/Fettuccine Alfredo Mama GIF by Cucina Tagliani Pasta, Pizza & Vino.gif" alt="Italian Cuisine"
+                    width="300" height="200"></a>
+                    <a href="./lasagna.html"> <p class="under" >Italian Cuisine</p></a>
+            <!-- <div class="overlay-text">Italian Cuisine</div> -->
+        </div>
+
+
+        <div id="japanese">
+            <div class="image-container">
+                <img id="one" src="./recipes/naruto-ramen.gif" alt="japanese Cuisine" width="300" height="200">
+                <a href="./ramen.html">   <p class="under" >Japanese Cuisine</p>
+
+            </div>
+
+
+        </div>
+
+        <div id="indian">
+            <div class="image-container">
+              <img id="one" src="./recipes/Hot Sauce Nft GIF by SuperRareBears (1).gif" alt="indian Cuisine" width="300" height="200">
+                    <a href="./butterchicken.html">  <p class="under" >Indian Cuisine</p>
+            </div>
+
+        </div>
+
+        <div id="chinese">
+
+        </div>
+
+
+        <div id="turkish">
+
+        </div>
+
+    </div>
+</body>
+
+
+
+<footer>
+    <p class="foot">A Recipe Project by Shreya Sikder</p>
+    <div class="icons">
+        <a href="https://github.com/Shreya-Sikder" target="_blank" title="GitHub">
+            <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" />
+        </a>
+        <a href="mailto:shreyasikder03@gmail.com" title="Gmail">
+            <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail" />
+        </a>
+    </div>
+</footer>
+
+
+</html>
