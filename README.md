@@ -6,7 +6,7 @@ Hey there, hungry developer! 👨‍🍳👩‍🍳
 Welcome to **Odin Recipes** – a *fun and delicious* mini-project from [The Odin Project](https://www.theodinproject.com/).  
 This is where HTML meets hunger! 🍕🍜🥗
 
-🔗 **Live Website:** [Click here to get hungry](https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1)
+🔗 **Live Website:** [Click here to get hungry](https://shreya-sikder.github.io/odin-recipes/)
 
 
 ---
