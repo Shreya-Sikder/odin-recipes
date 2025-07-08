@@ -30,7 +30,7 @@ This is a beginner-friendly project where you’ll:
 - Individual recipe pages:  
   - `lasagna.html`  
   - `butterchicken.html`  
-  - `ramen.html`  
+  - `shoyuramen.html`  
  
 
 ---
